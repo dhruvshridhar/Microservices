@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{C29951EA-19BE-4E37-9614-8CE29C02387E}|Default">
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{87E81607-B6FE-4E70-BE1E-970216044438}" ItemName="Mango.Services.ProductAPI" ConfigurationId="Default" />
+        <StartupItem ItemId="{DDB2C523-8202-46C8-B82B-2826DCEE58F0}" ItemName="Mango.Web" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.Services.Mango.Services.ProductAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Web/Controllers/ProductController.cs" relfile="Mango.Web/Controllers/ProductController.cs" line="99" column="1" />
+      <Breakpoint file="/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Web/Controllers/ProductController.cs" relfile="Mango.Web/Controllers/ProductController.cs" line="92" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Services.Mango.Services.Identity FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.FrontEnd.Mango.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mango.Web/Controllers/ProductController.cs">
+    <Files>
+      <File FileName="Mango.Web/Controllers/ProductController.cs" Line="105" Column="18" />
+      <File FileName="Mango.Web/Views/Shared/ProductIndex.cshtml" Line="28" Column="53" />
+      <File FileName="Mango.Services.ProductAPI/Controllers/ProductController.cs" Line="92" Column="17" />
+      <File FileName="Mango.Web/Services/ProductService.cs" Line="29" Column="36" />
+      <File FileName="Mango.Web/Views/Shared/ProductDelete.cshtml" Line="13" Column="63" />
+      <File FileName="Mango.Web/Services/BaseService.cs" Line="24" Column="1" />
+      <File FileName="Mango.Web/Views/Shared/ProductEdit.cshtml" Line="9" Column="15" />
+      <File FileName="Mango.Web/Models/ProductDTO.cs" Line="6" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MangoStore" expanded="True">
+            <Node name="Services" expanded="True">
+              <Node name="Mango.Services.Identity" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

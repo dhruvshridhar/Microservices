@@ -1,0 +1,65 @@
+﻿@model Mango.Web.Models.ProductDTO
+
+
+<form asp-action="ProductCreate">
+    <br />
+    <div class="container border p-3">
+        <h1 class="text-primary">Create Product</h1>
+
+        <hr />
+        <div class="row">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="col-2">
+                <label asp-for="name" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="name" class="form-control" />
+                <span asp-validation-for="name" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label asp-for="category" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="category" class="form-control" />
+                <span asp-validation-for="category" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label asp-for="description" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <textarea asp-for="description" class="form-control" rows="5"></textarea>
+                <span asp-validation-for="description" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label asp-for="imageurl" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="imageurl" class="form-control" />
+                <span asp-validation-for="imageurl" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label asp-for="price" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="price" class="form-control" />
+                <span asp-validation-for="price" class="text-danger"></span>
+            </div>
+            <div class="col-5 offset-2">
+
+                <a asp-action="ProductIndex" class="btn-primary btn form-control ">Back to List</a>
+            </div>
+            <div class="col-5">
+                <input type="submit" value="Create" class="btn btn-success form-control" />
+
+            </div>
+
+        </div>
+
+        <div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
