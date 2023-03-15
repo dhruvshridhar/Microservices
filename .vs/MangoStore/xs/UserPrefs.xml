@@ -1,45 +1,84 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{C29951EA-19BE-4E37-9614-8CE29C02387E}|Default">
-  <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
-      <Items>
-        <StartupItem ItemId="{87E81607-B6FE-4E70-BE1E-970216044438}" ItemName="Mango.Services.ProductAPI" ConfigurationId="Default" />
-        <StartupItem ItemId="{DDB2C523-8202-46C8-B82B-2826DCEE58F0}" ItemName="Mango.Web" ConfigurationId="Default" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
-  </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.Services.Mango.Services.ProductAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <Breakpoint file="/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Web/Controllers/ProductController.cs" relfile="Mango.Web/Controllers/ProductController.cs" line="99" column="1" />
-    <Breakpoint file="/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Web/Controllers/ProductController.cs" relfile="Mango.Web/Controllers/ProductController.cs" line="92" column="1" />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Services.Mango.Services.Identity FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Multiple Projects">
   <MonoDevelop.Ide.ItemProperties.FrontEnd.Mango.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Services.Mango.Services.Email PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Mango.Web/Controllers/ProductController.cs">
     <Files>
-      <File FileName="Mango.Web/Controllers/ProductController.cs" Line="105" Column="18" />
-      <File FileName="Mango.Web/Views/Shared/ProductIndex.cshtml" Line="28" Column="53" />
-      <File FileName="Mango.Services.ProductAPI/Controllers/ProductController.cs" Line="92" Column="17" />
-      <File FileName="Mango.Web/Services/ProductService.cs" Line="29" Column="36" />
-      <File FileName="Mango.Web/Views/Shared/ProductDelete.cshtml" Line="13" Column="63" />
-      <File FileName="Mango.Web/Services/BaseService.cs" Line="24" Column="1" />
-      <File FileName="Mango.Web/Views/Shared/ProductEdit.cshtml" Line="9" Column="15" />
-      <File FileName="Mango.Web/Models/ProductDTO.cs" Line="6" Column="18" />
+      <File FileName="Mango.Services.ProductAPI/Controllers/ProductController.cs" Line="102" Column="14" />
+      <File FileName="Mango.Web/Services/ProductService.cs" Line="45" Column="1" />
+      <File FileName="Mango.Services.ProductAPI/Repository/ProductRepository.cs" Line="1" Column="1" />
+      <File FileName="Mango.Web/Services/BaseService.cs" Line="26" Column="1" />
+      <File FileName="Mango.Web/Controllers/ProductController.cs" Line="46" Column="1" />
+      <File FileName="Mango.Web/Controllers/HomeController.cs" Line="84" Column="1" />
+      <File FileName="Mango.Services.Identity/Services/ProfileService.cs" Line="57" Column="1" />
+      <File FileName="Mango.Web/Views/Shared/ProductCreate.cshtml" Line="32" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MangoStore" expanded="True">
+            <Node name="FrontEnd" expanded="True">
+              <Node name="Mango.Web" expanded="True">
+                <Node name="Controllers" expanded="True">
+                  <Node name="ProductController.cs" selected="True" />
+                </Node>
+                <Node name="Models" expanded="True" />
+                <Node name="Services" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="Shared" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Gateway" expanded="True">
+              <Node name="Mango.GatewaySolution" expanded="True" />
+            </Node>
             <Node name="Services" expanded="True">
-              <Node name="Mango.Services.Identity" expanded="True" selected="True" />
+              <Node name="Mango.Services.Email" expanded="True" />
+              <Node name="Mango.Services.Identity" expanded="True">
+                <Node name="DbContexts" expanded="True" />
+                <Node name="Initializer" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
+              <Node name="Mango.Services.OrderAPI" expanded="True" />
+              <Node name="Mango.Services.ProductAPI" expanded="True">
+                <Node name="Controllers" expanded="True" />
+                <Node name="Repository" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Services.Mango.Services.PaymentAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.ProductAPI/Repository/ProductRepository.cs" relfile="Mango.Services.ProductAPI/Repository/ProductRepository.cs" line="54" column="1" />
+      <Breakpoint file="/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Web/Services/ProductService.cs" relfile="Mango.Web/Services/ProductService.cs" line="17" column="1" />
+      <Breakpoint file="/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Web/Controllers/ProductController.cs" relfile="Mango.Web/Controllers/ProductController.cs" line="46" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Gateway.Mango.GatewaySolution PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Services.Mango.Services.Identity PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Services.Mango.Services.ShoppingCartAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Services.Mango.Services.ProductAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Services.Mango.Services.OrderAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Services.Mango.Services.CouponAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{30F8A7F0-58BE-450E-AB64-EBC869A25D61}" ItemName="Mango.GatewaySolution" ConfigurationId="https" />
+        <StartupItem ItemId="{D1A5DE8C-2FE0-4E9D-848A-ED85300609AD}" ItemName="Mango.Services.CouponAPI" ConfigurationId="Default" />
+        <StartupItem ItemId="{146AB8E1-D452-4F47-BB0A-4AB2032167B2}" ItemName="Mango.Services.Email" ConfigurationId="https" />
+        <StartupItem ItemId="{C29951EA-19BE-4E37-9614-8CE29C02387E}" ItemName="Mango.Services.Identity" ConfigurationId="Default" />
+        <StartupItem ItemId="{770AD0C0-428C-4D43-A028-44416C7C07ED}" ItemName="Mango.Services.OrderAPI" ConfigurationId="https" />
+        <StartupItem ItemId="{26A3CFF0-A3AE-4DBF-B8A9-34BF50059EDF}" ItemName="Mango.Services.PaymentAPI" ConfigurationId="https" />
+        <StartupItem ItemId="{87E81607-B6FE-4E70-BE1E-970216044438}" ItemName="Mango.Services.ProductAPI" ConfigurationId="Default" />
+        <StartupItem ItemId="{1BA22F67-3928-4E03-ABB6-17AAF8F77DBF}" ItemName="Mango.Services.ShoppingCartAPI" ConfigurationId="Default" />
+        <StartupItem ItemId="{DDB2C523-8202-46C8-B82B-2826DCEE58F0}" ItemName="Mango.Web" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
 </Properties>

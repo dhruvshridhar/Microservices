@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Mango.Web.Models;
 using Mango.Web.Services.IServices;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -22,8 +23,9 @@ namespace Mango.Web.Controllers
         // GET: /<controller>/
         public async Task<IActionResult> ProductIndex()
         {
+            var token = await HttpContext.GetTokenAsync("access_token");
             List<ProductDTO> items = new();
-            var response = await _productService.GetAllProductsAsync<ResponseDTO>();
+            var response = await _productService.GetAllProductsAsync<ResponseDTO>(token);
 
             if(response is not null && response.IsSuccess)
             {
@@ -43,7 +45,8 @@ namespace Mango.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                var resp = await _productService.CreateProductAsync<ResponseDTO>(product);
+                var token = await HttpContext.GetTokenAsync("access_token");
+                var resp = await _productService.CreateProductAsync<ResponseDTO>(product,token);
 
                 if (resp != null && resp.IsSuccess)
                 {
@@ -55,7 +58,8 @@ namespace Mango.Web.Controllers
 
         public async Task<IActionResult> ProductEdit(int productid)
         {
-            var resp = await _productService.GetProductById<ResponseDTO>(productid);
+            var token = await HttpContext.GetTokenAsync("access_token");
+            var resp = await _productService.GetProductById<ResponseDTO>(productid,token);
 
             if (resp != null && resp.IsSuccess)
             {
@@ -71,7 +75,8 @@ namespace Mango.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                var resp = await _productService.UpdateProductAsync<ResponseDTO>(product);
+                var token = await HttpContext.GetTokenAsync("access_token");
+                var resp = await _productService.UpdateProductAsync<ResponseDTO>(product,token);
 
                 if (resp != null && resp.IsSuccess)
                 {
@@ -84,7 +89,8 @@ namespace Mango.Web.Controllers
 
         public async Task<IActionResult> ProductDelete(int productid)
         {
-            var resp = await _productService.GetProductById<ResponseDTO>(productid);
+            var token = await HttpContext.GetTokenAsync("access_token");
+            var resp = await _productService.GetProductById<ResponseDTO>(productid,token);
 
             if (resp != null && resp.IsSuccess)
             {
@@ -99,7 +105,8 @@ namespace Mango.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                var resp = await _productService.DeleteProductAsync<ResponseDTO>(model.productid);
+                var token = await HttpContext.GetTokenAsync("access_token");
+                var resp = await _productService.DeleteProductAsync<ResponseDTO>(model.productid,token);
 
                 if (resp.IsSuccess)
                 {

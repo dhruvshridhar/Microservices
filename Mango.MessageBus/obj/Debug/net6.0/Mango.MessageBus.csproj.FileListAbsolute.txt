@@ -1,0 +1,12 @@
+/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.MessageBus/bin/Debug/net6.0/Mango.MessageBus.deps.json
+/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.MessageBus/bin/Debug/net6.0/Mango.MessageBus.dll
+/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.MessageBus/bin/Debug/net6.0/Mango.MessageBus.pdb
+/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.MessageBus/obj/Debug/net6.0/Mango.MessageBus.csproj.AssemblyReference.cache
+/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.MessageBus/obj/Debug/net6.0/Mango.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.MessageBus/obj/Debug/net6.0/Mango.MessageBus.AssemblyInfoInputs.cache
+/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.MessageBus/obj/Debug/net6.0/Mango.MessageBus.AssemblyInfo.cs
+/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.MessageBus/obj/Debug/net6.0/Mango.MessageBus.csproj.CoreCompileInputs.cache
+/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.MessageBus/obj/Debug/net6.0/Mango.MessageBus.dll
+/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.MessageBus/obj/Debug/net6.0/refint/Mango.MessageBus.dll
+/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.MessageBus/obj/Debug/net6.0/Mango.MessageBus.pdb
+/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.MessageBus/obj/Debug/net6.0/ref/Mango.MessageBus.dll

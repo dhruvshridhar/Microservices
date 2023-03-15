@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.Http.Headers;
 using System.Text;
 using Mango.Web.Models;
 using Mango.Web.Services.IServices;
@@ -31,6 +32,10 @@ namespace Mango.Web.Services
                 if(request.Data is not null)
                 {
                     message.Content = new StringContent(JsonConvert.SerializeObject(request.Data),Encoding.UTF8,"application/json");
+                }
+
+                if (!string.IsNullOrEmpty(request.AccessToken)) {
+                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", request.AccessToken);
                 }
 
                 HttpResponseMessage httpResponse = null;

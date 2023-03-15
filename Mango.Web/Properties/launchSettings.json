@@ -1,12 +1,4 @@
 {
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:30565",
-      "sslPort": 44360
-    }
-  },
   "profiles": {
     "Mango.Web": {
       "commandName": "Project",

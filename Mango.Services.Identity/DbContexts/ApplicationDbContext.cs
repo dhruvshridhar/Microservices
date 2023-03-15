@@ -10,7 +10,6 @@ namespace Mango.Services.Identity.DbContexts
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
-        //public DbSet<Product> products { get; set; }
     }
 }
 

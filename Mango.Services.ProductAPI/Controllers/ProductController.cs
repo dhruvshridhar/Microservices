@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Mango.Services.ProductAPI.Models.DTO;
 using Mango.Services.ProductAPI.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -22,6 +23,7 @@ namespace Mango.Services.ProductAPI.Controllers
 
         // Get all products
         [HttpGet]
+        [Authorize]
         public async Task<ResponseDTO> GetAllProducts()
         {
             var resp = new ResponseDTO();
@@ -46,6 +48,7 @@ namespace Mango.Services.ProductAPI.Controllers
 
         // Add or update Product
         [HttpPost]
+        [Authorize]
         public async Task<ResponseDTO> CreateUpdateProduct([FromBody] ProductDTO product)
         {
             var resp = new ResponseDTO();
@@ -68,6 +71,7 @@ namespace Mango.Services.ProductAPI.Controllers
         // Get product by id
         [HttpGet]
         [Route("{id}")]
+        [Authorize]
         public async Task<ResponseDTO> GetProductById(int id)
         {
             var resp = new ResponseDTO();
@@ -90,6 +94,7 @@ namespace Mango.Services.ProductAPI.Controllers
         // Delete by id
         [HttpDelete]
         [Route("{id}")]
+        [Authorize(Roles ="Admin")]
         public async Task<ResponseDTO> DeleteProduct(int id)
         {
             var resp = new ResponseDTO();
@@ -110,6 +115,7 @@ namespace Mango.Services.ProductAPI.Controllers
         }
 
         [HttpPut]
+        [Authorize]
         public async Task<ResponseDTO> UpdateProduct([FromBody] ProductDTO product)
         {
             var resp = new ResponseDTO();

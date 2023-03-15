@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mango.services.productapi:
+    image: ${DOCKER_REGISTRY-}mangoservices
+    build:
+      context: .
+      dockerfile: Mango.Services.ProductAPI/Dockerfile
