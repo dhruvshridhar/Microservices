@@ -36,6 +36,8 @@
 /Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.OrderAPI/bin/Debug/net7.0/System.CodeDom.dll
 /Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.OrderAPI/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.OrderAPI/bin/Debug/net7.0/System.Memory.Data.dll
+/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.OrderAPI/bin/Debug/net7.0/Mango.MessageBus.dll
+/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.OrderAPI/bin/Debug/net7.0/Mango.MessageBus.pdb
 /Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.OrderAPI/obj/Debug/net7.0/Mango.Services.OrderAPI.csproj.AssemblyReference.cache
 /Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.OrderAPI/obj/Debug/net7.0/Mango.Services.OrderAPI.GeneratedMSBuildEditorConfig.editorconfig
 /Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.OrderAPI/obj/Debug/net7.0/Mango.Services.OrderAPI.AssemblyInfoInputs.cache
@@ -57,5 +59,3 @@
 /Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.OrderAPI/obj/Debug/net7.0/Mango.Services.OrderAPI.pdb
 /Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.OrderAPI/obj/Debug/net7.0/Mango.Services.OrderAPI.genruntimeconfig.cache
 /Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.OrderAPI/obj/Debug/net7.0/ref/Mango.Services.OrderAPI.dll
-/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.OrderAPI/bin/Debug/net7.0/Mango.MessageBus.dll
-/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.OrderAPI/bin/Debug/net7.0/Mango.MessageBus.pdb

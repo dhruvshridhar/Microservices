@@ -1880,11 +1880,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dhruvshridhar/Documents/DotNetProjects/Mango.Services.Email/Mango.Services.Email.csproj",
+      "projectUniqueName": "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.Email/Mango.Services.Email.csproj",
       "projectName": "Mango.Services.Email",
-      "projectPath": "/Users/dhruvshridhar/Documents/DotNetProjects/Mango.Services.Email/Mango.Services.Email.csproj",
+      "projectPath": "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.Email/Mango.Services.Email.csproj",
       "packagesPath": "/Users/dhruvshridhar/.nuget/packages/",
-      "outputPath": "/Users/dhruvshridhar/Documents/DotNetProjects/Mango.Services.Email/obj/",
+      "outputPath": "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.Email/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dhruvshridhar/.nuget/NuGet/NuGet.Config"

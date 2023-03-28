@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yCmYb3l1DWPnt40gb4IB/ZQqXidBGntCxQwo2AJ1bQ3v7d5YS6BhtTXn+9lABvN/ALIdfUlZ0ZlnDOiXumDcSQ==",
+  "dgSpecHash": "fk9n3JxYjPP4wDf2t/yaCTJiagenoDu6Ks5YTycnB60qBlZoG95tzd1KQWiw6YA8E986ucL1Pq8n9hRrlcdw/g==",
   "success": true,
-  "projectFilePath": "/Users/dhruvshridhar/Documents/DotNetProjects/Mango.Services.Email/Mango.Services.Email.csproj",
+  "projectFilePath": "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.Email/Mango.Services.Email.csproj",
   "expectedPackageFiles": [
     "/Users/dhruvshridhar/.nuget/packages/azure.core/1.27.0/azure.core.1.27.0.nupkg.sha512",
     "/Users/dhruvshridhar/.nuget/packages/azure.core.amqp/1.2.0/azure.core.amqp.1.2.0.nupkg.sha512",

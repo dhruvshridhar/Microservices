@@ -1,82 +1,9 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dhruvshridhar/Documents/DotNetProjects/Mango.Services.PaymentAPI/Mango.Services.PaymentAPI.csproj": {}
+    "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.PaymentAPI/Mango.Services.PaymentAPI.csproj": {}
   },
   "projects": {
-    "/Users/dhruvshridhar/Documents/DotNetProjects/Mango.Services.PaymentAPI/Mango.Services.PaymentAPI.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/dhruvshridhar/Documents/DotNetProjects/Mango.Services.PaymentAPI/Mango.Services.PaymentAPI.csproj",
-        "projectName": "Mango.Services.PaymentAPI",
-        "projectPath": "/Users/dhruvshridhar/Documents/DotNetProjects/Mango.Services.PaymentAPI/Mango.Services.PaymentAPI.csproj",
-        "packagesPath": "/Users/dhruvshridhar/.nuget/packages/",
-        "outputPath": "/Users/dhruvshridhar/Documents/DotNetProjects/Mango.Services.PaymentAPI/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/dhruvshridhar/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.MessageBus/Mango.MessageBus.csproj": {
-                "projectPath": "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.MessageBus/Mango.MessageBus.csproj"
-              },
-              "/Users/dhruvshridhar/Documents/DotNetProjects/PaymentProcessor/PaymentProcessor.csproj": {
-                "projectPath": "/Users/dhruvshridhar/Documents/DotNetProjects/PaymentProcessor/PaymentProcessor.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.MessageBus/Mango.MessageBus.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -140,14 +67,91 @@
         }
       }
     },
-    "/Users/dhruvshridhar/Documents/DotNetProjects/PaymentProcessor/PaymentProcessor.csproj": {
+    "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.PaymentAPI/Mango.Services.PaymentAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dhruvshridhar/Documents/DotNetProjects/PaymentProcessor/PaymentProcessor.csproj",
-        "projectName": "PaymentProcessor",
-        "projectPath": "/Users/dhruvshridhar/Documents/DotNetProjects/PaymentProcessor/PaymentProcessor.csproj",
+        "projectUniqueName": "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.PaymentAPI/Mango.Services.PaymentAPI.csproj",
+        "projectName": "Mango.Services.PaymentAPI",
+        "projectPath": "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.PaymentAPI/Mango.Services.PaymentAPI.csproj",
         "packagesPath": "/Users/dhruvshridhar/.nuget/packages/",
-        "outputPath": "/Users/dhruvshridhar/Documents/DotNetProjects/PaymentProcessor/obj/",
+        "outputPath": "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.Services.PaymentAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dhruvshridhar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.MessageBus/Mango.MessageBus.csproj": {
+                "projectPath": "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.MessageBus/Mango.MessageBus.csproj"
+              },
+              "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/PaymentProcessor/PaymentProcessor.csproj": {
+                "projectPath": "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/PaymentProcessor/PaymentProcessor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.13.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/PaymentProcessor/PaymentProcessor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/PaymentProcessor/PaymentProcessor.csproj",
+        "projectName": "PaymentProcessor",
+        "projectPath": "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/PaymentProcessor/PaymentProcessor.csproj",
+        "packagesPath": "/Users/dhruvshridhar/.nuget/packages/",
+        "outputPath": "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/PaymentProcessor/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dhruvshridhar/.nuget/NuGet/NuGet.Config"

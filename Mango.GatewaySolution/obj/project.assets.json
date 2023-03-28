@@ -821,11 +821,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dhruvshridhar/Documents/DotNetProjects/Mango.GatewaySolution/Mango.GatewaySolution.csproj",
+      "projectUniqueName": "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.GatewaySolution/Mango.GatewaySolution.csproj",
       "projectName": "Mango.GatewaySolution",
-      "projectPath": "/Users/dhruvshridhar/Documents/DotNetProjects/Mango.GatewaySolution/Mango.GatewaySolution.csproj",
+      "projectPath": "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.GatewaySolution/Mango.GatewaySolution.csproj",
       "packagesPath": "/Users/dhruvshridhar/.nuget/packages/",
-      "outputPath": "/Users/dhruvshridhar/Documents/DotNetProjects/Mango.GatewaySolution/obj/",
+      "outputPath": "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.GatewaySolution/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dhruvshridhar/.nuget/NuGet/NuGet.Config"

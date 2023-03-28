@@ -11,6 +11,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.13.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,7 +27,7 @@
     <Folder Include="Messaging\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MangoStore\Mango.MessageBus\Mango.MessageBus.csproj">
+    <ProjectReference Include="..\Mango.MessageBus\Mango.MessageBus.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
     <ProjectReference Include="..\PaymentProcessor\PaymentProcessor.csproj">

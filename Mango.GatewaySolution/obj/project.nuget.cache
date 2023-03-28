@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b7Cu24Lg06GhYU+9rASsTMSux5JYsC9iLDpAjivIPEYRMYGvSw6HQc87KnQQHfxdScHP7NMrQzZFpzvto+KsFw==",
+  "dgSpecHash": "8/Sxifiu7XZKwNvNRJVQFMIv/yJ+nvP/jRnNg/RRJWg0Vg9sr/pQlJcz0xFcomFKB/GIA3D7kviR0Rl9PWNRfw==",
   "success": true,
-  "projectFilePath": "/Users/dhruvshridhar/Documents/DotNetProjects/Mango.GatewaySolution/Mango.GatewaySolution.csproj",
+  "projectFilePath": "/Users/dhruvshridhar/Documents/DotNetProjects/MangoStore/Mango.GatewaySolution/Mango.GatewaySolution.csproj",
   "expectedPackageFiles": [
     "/Users/dhruvshridhar/.nuget/packages/fluentvalidation/10.3.6/fluentvalidation.10.3.6.nupkg.sha512",
     "/Users/dhruvshridhar/.nuget/packages/identitymodel/6.0.0/identitymodel.6.0.0.nupkg.sha512",
